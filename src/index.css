@@ -157,3 +157,44 @@ button:active {
   border: 8px solid #e4daff;
   border-radius: 40px;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1532px) {
+  form {
+    width: 80vw;
+  }
+
+  lottie-player {
+    max-width: 60%;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-container button {
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 354px) {
+  input {
+    min-width: 90%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  ol {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 25px;
+  }
+}
